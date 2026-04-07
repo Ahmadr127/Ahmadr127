@@ -1,4 +1,4 @@
-name: Generate Pacman Contribution Graph
+name: Generate pacman animation
 
 on:
   workflow_dispatch:
@@ -8,12 +8,12 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -21,15 +21,24 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate pacman contribution graph
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
+          node-version: '20'
+
+      - name: Install pacman contribution generator
+        run: npm install pacman-contribution-graph@2.4.0
+
+      - name: Generate pacman contribution graph SVGs
+        run: |
+          mkdir -p output
+          npx pacman-contribution-graph --platform github --gameTheme github --username "${{ github.repository_owner }}" --output output/pacman-contribution-graph.svg
+          npx pacman-contribution-graph --platform github --gameTheme github-dark --username "${{ github.repository_owner }}" --output output/pacman-contribution-graph-dark.svg
 
       - name: Commit generated output
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
-          message: 'chore: update pacman contribution graph'
+          message: chore: update pacman contribution graph
           add: 'output/*'

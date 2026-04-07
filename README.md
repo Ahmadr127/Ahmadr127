@@ -1,20 +1,45 @@
-## Hi there 👋
+<h1 align="center">Hey 👋 What's Up?</h1>
 
-<!--
-**Ahmadr127/Ahmadr127** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class AhmadRifai_AI:
+    def __init__(self):
+        self.name = "Ahmad Rifai"
+        self.role = "👨‍💻 Mahasiswa Programmer"
+        self.location = "📍 Bogor, Jawa Barat"
+        self.background = "🎓 Mahasiswa jurusan Teknik Informatika"
+        self.specialization = [
+            "💻 TypeScript",
+            "🚀 Next.js",
+            "🌐 Laravel",
+            "🎨 Tailwind CSS",
+            "🐍 Python",
+            "🌀 Flutter",
+            "☁️ Firebase",
+            "🗄️ PostgreSQL",
+            "🐬 MySQL",
+            "🧠 Go"
+        ]
+        self.current_mission = "Membangun proyek web dan mobile modern"
+        self.ai_mode = True
 
-Here are some ideas to get you started:
+    def get_tech_stack(self):
+        return {
+            "frontend": ["Next.js", "Flutter", "Tailwind CSS"],
+            "backend": ["Laravel", "Go", "Python"],
+            "database": ["PostgreSQL", "MySQL", "Firebase"],
+            "tools": ["Git", "Docker", "Figma"]
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<h1 align="center">Hey 👋What's Up?</h1>
+    def services(self):
+        return ["🚀 Pengembangan Web", "📱 Pengembangan Mobile", "💡 Konsultasi Teknis"]
+
+    def contact(self):
+        return "📧 ahmadrifai808@gmail.com"
+
+# Initialize Developer
+developer = AhmadRifai()
+print(f"Status: {developer.mode and 'ONLINE ✅' or 'OFFLINE'}")
+```
 
 ###
 
@@ -23,46 +48,52 @@ Here are some ideas to get you started:
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
   <img width="12" />
+  <img src="https://skillicons.dev/icons?i=laravel" height="60" alt="laravel logo"  />
+  <img width="12" />
   <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="60" alt="storybook logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=graphql" height="60" alt="graphql logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nestjs" height="60" alt="nestjs logo"  />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
+  <img src="https://skillicons.dev/icons?i=flutter" height="60" alt="flutter logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=firebase" height="60" alt="firebase logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=postgresql" height="60" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="mysql logo"  />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
+  <!-- Ganti URL di href sesuai profil media sosial Anda -->
+  <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="https://twitter.com/your-profile" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+  </a>
+  <a href="https://discord.gg/your-invite" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+  </a>
+  <a href="https://instagram.com/your-profile" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E1306C&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+  </a>
+  <a href="https://wa.me/6281234567890?text=Halo%20saya%20Ahmad%20Rifai%20dari%20Bogor%2C%20mahasiswa%20programer" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/static/v1?message=WhatsApp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
+  </a>
 </div>
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Ahmadr127&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app/?username=Ahmadr127&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
 
-###
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ahmadr127/Ahmadr127/main/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ahmadr127/Ahmadr127/main/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Ahmadr127/Ahmadr127/main/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="./output/pacman-contribution-graph.svg">
 </picture>
 
 ###
