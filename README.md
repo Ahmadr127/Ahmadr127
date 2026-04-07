@@ -20,7 +20,7 @@ class AhmadRifai_AI:
             "🧠 Go"
         ]
         self.current_mission = "Membangun proyek web dan mobile modern"
-        self.ai_mode = True
+        
 
     def get_tech_stack(self):
         return {
