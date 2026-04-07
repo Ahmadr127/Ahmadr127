@@ -4,7 +4,7 @@
 class AhmadRifai_AI:
     def __init__(self):
         self.name = "Ahmad Rifai"
-        self.role = "👨‍💻 Mahasiswa Programmer"
+        self.role = "FrontEnd & Mobile Dev"
         self.location = "📍 Bogor, Jawa Barat"
         self.background = "🎓 Mahasiswa jurusan Teknik Informatika"
         self.specialization = [
