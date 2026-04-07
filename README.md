@@ -69,7 +69,7 @@ print(f"Status: {developer.mode and 'ONLINE ✅' or 'OFFLINE'}")
 
 <div align="center">
   <!-- Ganti URL di href sesuai profil media sosial Anda -->
-  <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/ahmad-rifai2905" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
   <a href="https://twitter.com/your-profile" target="_blank" rel="noreferrer">
@@ -78,10 +78,10 @@ print(f"Status: {developer.mode and 'ONLINE ✅' or 'OFFLINE'}")
   <a href="https://discord.gg/your-invite" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
   </a>
-  <a href="https://instagram.com/your-profile" target="_blank" rel="noreferrer">
+  <a href="https://instagram.com/ahmad_rifa_1" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E1306C&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
   </a>
-  <a href="https://wa.me/6281234567890?text=Halo%20saya%20Ahmad%20Rifai%20dari%20Bogor%2C%20mahasiswa%20programer" target="_blank" rel="noreferrer">
+  <a href="https://wa.me/62895711580060?text=Halo%20saya%20Ahmad%20Rifai%20dari%20Bogor%2C%20mahasiswa%20programer" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/static/v1?message=WhatsApp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
   </a>
 </div>
