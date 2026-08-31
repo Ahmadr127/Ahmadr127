@@ -5,19 +5,19 @@ class AhmadRifai_AI:
     def __init__(self):
         self.name = "Ahmad Rifai"
         self.role = "FrontEnd & Mobile Dev"
-        self.location = "📍 Bogor, Jawa Barat"
-        self.background = "🎓 Mahasiswa jurusan Teknik Informatika"
+        self.location = "Bogor, Jawa Barat"
+        self.background = "Mahasiswa jurusan Teknik Informatika"
         self.specialization = [
-            "💻 TypeScript",
-            "🚀 Next.js",
-            "🌐 Laravel",
-            "🎨 Tailwind CSS",
-            "🐍 Python",
-            "🌀 Flutter",
-            "☁️ Firebase",
-            "🗄️ PostgreSQL",
-            "🐬 MySQL",
-            "🧠 Go"
+            "TypeScript",
+            "Next.js",
+            "Laravel",
+            "Tailwind CSS",
+            "Python",
+            "Flutter",
+            "Firebase",
+            "PostgreSQL",
+            "MySQL",
+            "Go"
         ]
         self.current_mission = "Membangun proyek web dan mobile modern"
         
@@ -31,10 +31,10 @@ class AhmadRifai_AI:
         }
 
     def services(self):
-        return ["🚀 Pengembangan Web", "📱 Pengembangan Mobile", "💡 Konsultasi Teknis"]
+        return ["Web Dev", "Mobile Dev", "IT Consultant"]
 
     def contact(self):
-        return "📧 ahmadrifai808@gmail.com"
+        return "ahmadrifai808@gmail.com"
 
 # Initialize Developer
 developer = AhmadRifai()
