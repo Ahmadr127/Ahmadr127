@@ -1,12 +1,18 @@
 <h1 align="center">Hey 👋 What's Up?</h1>
 
 ```python
-class AhmadRifai_AI:
+
+class AhmadRifai:
     def __init__(self):
+        # Personal Information
         self.name = "Ahmad Rifai"
-        self.role = "FrontEnd & Mobile Dev"
+        self.role = "Frontend & Mobile Developer"
         self.location = "Bogor, Jawa Barat"
-        self.background = "Mahasiswa jurusan Teknik Informatika"
+        self.background = "Developer"
+        self.email = "ahmadrifai808@gmail.com"
+        self.mode = True
+
+        # Specialization
         self.specialization = [
             "TypeScript",
             "Next.js",
@@ -19,26 +25,121 @@ class AhmadRifai_AI:
             "MySQL",
             "Go"
         ]
-        self.current_mission = "Membangun proyek web dan mobile modern"
-        
 
-    def get_tech_stack(self):
-        return {
-            "frontend": ["Next.js", "Flutter", "Tailwind CSS"],
-            "backend": ["Laravel", "Go", "Python"],
-            "database": ["PostgreSQL", "MySQL", "Firebase"],
-            "tools": ["Git", "Docker", "Figma"]
+        # Current Mission
+        self.current_mission = (
+            "Membangun proyek web dan mobile modern"
+        )
+
+        # Technology Stack
+        self.tech_stack = {
+            "frontend": [
+                "Next.js",
+                "Flutter",
+                "Tailwind CSS"
+            ],
+            "backend": [
+                "Laravel",
+                "Go",
+                "Python"
+            ],
+            "database": [
+                "PostgreSQL",
+                "MySQL",
+                "Firebase"
+            ],
+            "tools": [
+                "Git",
+                "Docker",
+                "Figma"
+            ]
         }
 
-    def services(self):
-        return ["Web Dev", "Mobile Dev", "IT Consultant"]
+        # Services
+        self.available_services = [
+            "Web Development",
+            "Mobile Development",
+            "IT Consulting"
+        ]
+
+        # Social Media & Portfolio
+        self.social_links = {
+            "github": "",
+            "linkedin": "",
+            "portfolio": ""
+        }
+
+    def get_status(self):
+        return "ONLINE ✅" if self.mode else "OFFLINE"
+
+    def get_profile(self):
+        return {
+            "name": self.name,
+            "role": self.role,
+            "location": self.location,
+            "background": self.background,
+            "email": self.email,
+            "status": self.get_status(),
+            "current_mission": self.current_mission
+        }
+
+    def get_specialization(self):
+        return self.specialization
+
+    def get_tech_stack(self):
+        return self.tech_stack
+
+    def get_services(self):
+        return self.available_services
 
     def contact(self):
-        return "ahmadrifai808@gmail.com"
+        return self.email
+
+    def get_social_links(self):
+        return self.social_links
+
+    def display_profile(self):
+        print("=" * 50)
+        print("           DEVELOPER PROFILE")
+        print("=" * 50)
+
+        print(f"Name       : {self.name}")
+        print(f"Role       : {self.role}")
+        print(f"Location   : {self.location}")
+        print(f"Background : {self.background}")
+        print(f"Email      : {self.email}")
+        print(f"Status     : {self.get_status()}")
+
+        print("\nCURRENT MISSION")
+        print(f"- {self.current_mission}")
+
+        print("\nSPECIALIZATION")
+        for technology in self.specialization:
+            print(f"- {technology}")
+
+        print("\nTECH STACK")
+        for category, technologies in self.tech_stack.items():
+            print(f"\n{category.upper()}:")
+            for technology in technologies:
+                print(f"- {technology}")
+
+        print("\nAVAILABLE SERVICES")
+        for service in self.available_services:
+            print(f"- {service}")
+
+        print("\nSOCIAL LINKS")
+        for platform, url in self.social_links.items():
+            print(f"- {platform.title()}: {url or 'Not provided'}")
+
+        print("=" * 50)
+
 
 # Initialize Developer
 developer = AhmadRifai()
-print(f"Status: {developer.mode and 'ONLINE ✅' or 'OFFLINE'}")
+
+# Display Profile
+developer.display_profile()
+
 ```
 
 ###
