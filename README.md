@@ -70,8 +70,7 @@ class AhmadRifai:
         }
 
     def get_status(self):
-        return "ONLINE ✅" if self.mode else "OFFLINE"
-
+      
     def get_profile(self):
         return {
             "name": self.name,
@@ -81,58 +80,7 @@ class AhmadRifai:
             "email": self.email,
             "status": self.get_status(),
             "current_mission": self.current_mission
-        }
-
-    def get_specialization(self):
-        return self.specialization
-
-    def get_tech_stack(self):
-        return self.tech_stack
-
-    def get_services(self):
-        return self.available_services
-
-    def contact(self):
-        return self.email
-
-    def get_social_links(self):
-        return self.social_links
-
-    def display_profile(self):
-        print("=" * 50)
-        print("           DEVELOPER PROFILE")
-        print("=" * 50)
-
-        print(f"Name       : {self.name}")
-        print(f"Role       : {self.role}")
-        print(f"Location   : {self.location}")
-        print(f"Background : {self.background}")
-        print(f"Email      : {self.email}")
-        print(f"Status     : {self.get_status()}")
-
-        print("\nCURRENT MISSION")
-        print(f"- {self.current_mission}")
-
-        print("\nSPECIALIZATION")
-        for technology in self.specialization:
-            print(f"- {technology}")
-
-        print("\nTECH STACK")
-        for category, technologies in self.tech_stack.items():
-            print(f"\n{category.upper()}:")
-            for technology in technologies:
-                print(f"- {technology}")
-
-        print("\nAVAILABLE SERVICES")
-        for service in self.available_services:
-            print(f"- {service}")
-
-        print("\nSOCIAL LINKS")
-        for platform, url in self.social_links.items():
-            print(f"- {platform.title()}: {url or 'Not provided'}")
-
-        print("=" * 50)
-
+        }      
 
 # Initialize Developer
 developer = AhmadRifai()
